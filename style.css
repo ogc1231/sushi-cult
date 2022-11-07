@@ -40,7 +40,15 @@ body {
     padding: 0;
 }
 
+.footer {
+    text-align: center;
+}
+
 /* hero section */
+
+.hero-section {
+    background-color: lightgray;
+}
 
 .hero-text {
     display: flex;
@@ -58,6 +66,10 @@ body {
 
 img {
     max-width: 100%;
+}
+
+.hero-img-wide {
+    display: none;
 }
 
 .btns {
@@ -115,6 +127,15 @@ img {
     }
 }
 
+@media (min-width:650px) {
+    .hero-img-small {
+        display: none;
+    }
+    .hero-img-wide {
+        display: block;
+    }
+}
+
 @media (min-width:900px) {
     .header-container {
         display: flex;
@@ -125,5 +146,6 @@ img {
     .nav-list-item {
         margin: 0 2em;
     }
+    
 }
 
