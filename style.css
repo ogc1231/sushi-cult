@@ -40,6 +40,9 @@ body {
     padding: 0;
 }
 
+img {
+    width: 100%;
+}
 /* Nav items */
 
 .nav-list {
@@ -71,7 +74,7 @@ body {
 
 
 /* Media queries */
-@media (min-width:350px) {
+@media (min-width:376px) {
     .nav-list {
         flex-direction: row;
     }
