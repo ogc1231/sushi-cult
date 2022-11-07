@@ -35,6 +35,8 @@ body {
 .nav-link {
     color: #555;
     text-decoration: none;
+    font-weight: 700;
+    padding: .25em 0;
 }
 
 .nav-link:hover,
@@ -43,5 +45,5 @@ body {
 }
 
 .current-page {
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #555;
 }
