@@ -8,7 +8,7 @@
     <title>Sushi Cult</title>
 </head>
 <body>
-    <header class="header">
+    <header class="header container">
         <div class="site-title">
             <h1 class="main-title">Suhi Cult</h1>
             <p class="sub-title">The best sushi in Dublin</p>
@@ -24,9 +24,48 @@
     </header>
 
     <main>
-        <section class="hero-section"></section>
-        <section class="product-section"></section>
-        <section class="info-section"></section>
+        <section class="hero-section container">
+            <div class="hero-text">
+                <h2 class="hero-text-main">Reservation</h2>
+                <h4 class="hero-text-sub">- Make a - </h4>
+                <p class="hero-text-paragraph">Join us for our evening service</p>
+            </div>
+            <div>
+                <h3>Reserve a table</h3>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required placeholder="Joe Smith"><br>
+
+                    <label for="number">Number:</label>
+                    <input type="tel" id="number" required placeholder="087 622 1425"><br>
+
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" required><br>
+
+                    <label for="dropdown">Time</label>
+                    <select name="dropdown" id="dropdown">
+                        <option value="">6:00pm</option>
+                        <option value="">6:15pm</option>
+                        <option value="">6:30pm</option>
+                        <option value="">6:45pm</option>
+                        <option value="">7:00pm</option>
+                        <option value="">7:15pm</option>
+                        <option value="">7:30pm</option>
+                        <option value="">7:45pm</option>
+                        <option value="">8:00pm</option>
+                        <option value="">8:15pm</option>
+                        <option value="">8:30pm</option>
+                        <option value="">8:45pm</option>
+                        <option value="">9:00pm</option>
+                        <option value="">9:15pm</option>
+                        <option value="">9:30pm</option>
+                    </select><br>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+        
 
     </main>
 

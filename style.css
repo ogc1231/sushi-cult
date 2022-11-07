@@ -119,6 +119,34 @@ img {
     border-bottom: 1px solid #555;
 }
 
+/* Menu */
+
+.menu-section {
+    
+    text-align: center;
+    
+}
+
+.menu-sushi {
+    border: 2px solid black;
+    background-color: lightgray;
+}
+
+.sushi {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.sushi-img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 1em 0;
+}
 
 /* Media queries */
 @media (min-width:376px) {
@@ -145,6 +173,11 @@ img {
 
     .nav-list-item {
         margin: 0 2em;
+    }
+
+    .sushi-img {
+        width: 150px;
+        height: 150px;
     }
     
 }
