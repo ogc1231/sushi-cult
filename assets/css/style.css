@@ -6,11 +6,23 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 100%;
+    background-color: lightblue;
+}
+
 /* header */
+
+.page-header {
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightcoral;
+}
 
 .logo, .nav-list {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .logo-icon {
@@ -18,9 +30,15 @@
     width: 50px;
 }
 
+.nav-list {
+    background-color: blue;
+    text-align: center;
+}
+
 .nav-list-items {
     list-style-type: none;
-    margin-right: 1em;
+    
+    background-color: aqua;
 }
 
 .nav-list-link {
