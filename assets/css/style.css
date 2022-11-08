@@ -13,12 +13,16 @@ body {
     font-size: 1rem;
     color: white;
     background-color: #555;
+    background-color: black;
     font-family: 'Rubik', sans-serif;
-    background-image: url(/assets/images/hero-image-sushi.jpg);
+    background-image: url(/assets/images/hero-image-small.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center bottom 100px;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
+    
+    
 }
 
 .container {
@@ -29,7 +33,7 @@ body {
 /* header */
 
 .page-header {
-    width: 100%;
+    width: 100vw;
     margin: 0 auto;
    
 }
@@ -71,6 +75,21 @@ body {
     color: black;
 }
 
+@media (min-width:900px) {
+    body {
+        background-image: url(/assets/images/hero-image-sushi.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center bottom 100px;
+        height: 100vh;
+        width: 100vw;
+    
+    
+}
+    }
+}
+
+
 /* .text {
     display: flex;
     flex-direction: column;
@@ -88,9 +107,21 @@ body {
 
 } */
 
+/* body {
+    background-image: url(/assets/images/hero-image-sushi.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: fixed;
+    
+    height: 100vh;
+    width: 100vw;
+   
+} */
 
 
-.text {
+
+/* .text {
     font-size: 2em;
     padding-top: 5em;
 
@@ -108,10 +139,21 @@ body {
 
 img {
     width: 100%;
+} */
+
+/* #hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(/assets/images/hero-image-sushi.jpg) no-repeat center center;
+    background-size: cover;
 }
 
-
-
+#hero-outer {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+} */
 
 
 
