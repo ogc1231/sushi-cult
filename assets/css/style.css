@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
+
+
 /* Global style reset */
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    color: #555;
+    font-family: 'Rubik', sans-serif;
 }
 
 .container {
@@ -39,12 +48,23 @@
 
 .nav-list-items {
     list-style-type: none;
-    margin: 0 1em ;
+    margin: 0 0.42em ;
 }
 
 .nav-list-link {
     text-decoration: none;
+    color: inherit;
 }
+
+.current-page {
+    border-bottom: 1px solid #555;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+    color: black;
+}
+
 
 
 
