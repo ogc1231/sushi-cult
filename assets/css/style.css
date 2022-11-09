@@ -16,11 +16,10 @@ body {
     background-color: black;
     font-family: 'Rubik', sans-serif;
     background-image: url("../images/hero-image-small.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom 100px;
     height: 100vh;
-    width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
     
     
 }
@@ -78,11 +77,10 @@ body {
 @media (min-width:900px) {
     body {
         background-image: url("../images/hero-image-sushi.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center bottom 100px;
         height: 100vh;
-        width: 100vw;
+        
+        background-repeat: no-repeat;
+        background-size: cover;
     
     
 }
